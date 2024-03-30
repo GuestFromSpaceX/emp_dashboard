@@ -1,0 +1,70 @@
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a {
+  text-decoration: none;
+}
+
+body {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    color: #F8F8F8;
+}
+
+.header__container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 23px auto 0px auto;
+}
+
+.header__back_arrow {
+    margin: 0 0 0 80px;
+    cursor: pointer;
+}
+
+
+.header__home_button {
+    color: #FCFDFC;
+    width: 119px;
+    height: 39px;
+    border-radius: 15px;
+    background-color: #498553;
+    border: 0;
+    margin: 0px 0px 0px 30px;
+    cursor: pointer;
+}
+
+.header__search {
+    position: relative;
+}
+
+.header__search input {
+    max-width: 568px;
+    width: 100%;
+    height: 55px;
+    border-radius: 17px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 13px rgba(138, 138, 138, 0.25);
+    border: 0;
+    margin: 0 391px 0 177px;
+    padding: 0 0 0 45px;
+}
+
+.header__search input::placeholder {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #888888;
+
+}
+
+.header__search img {
+    position: absolute;
+    top: 19px;
+    left: 196px;
+}
