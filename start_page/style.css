@@ -13,9 +13,12 @@ body {
 
 .header__container {
     display: flex;
-    text-align: center;
-    align-items: center;
     margin: 23px auto 0px auto;
+}
+
+.header__back {
+    display: flex;
+    align-items: center;
 }
 
 .header__back_arrow {
@@ -25,6 +28,7 @@ body {
 
 
 .header__home_button {
+    font-family: 'Inter';
     color: #FCFDFC;
     width: 119px;
     height: 39px;
@@ -37,11 +41,14 @@ body {
 
 .header__search {
     position: relative;
+    display: flex;
+    width: 100%;
 }
 
-.header__search input {
+.header__search_input {
     max-width: 568px;
     width: 100%;
+    min-width: 200px;
     height: 55px;
     border-radius: 17px;
     background: #FFFFFF;
@@ -51,7 +58,76 @@ body {
     padding: 0 0 0 45px;
 }
 
-.header__search input::placeholder {
+.header__search_input::placeholder {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #888888;
+
+}
+
+.header__search_img {
+    position: absolute;
+    top: 19px;
+    left: 195px;
+}
+
+/*HEADER^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+.main__container {
+    display: flex;
+    margin: 37px 10px 0 10px;
+    max-width: 1350px;
+    width: 100%;
+    height: 81px;
+    border-radius: 21px;
+    background-color: #E6F1EB;
+
+}
+
+.main__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main__block_left {
+    display: flex;
+    align-items: center;
+}
+
+.main__title {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    color: #555555;
+    white-space: nowrap;
+    margin: 0 0 0 32px;
+}
+
+.main__search {
+    position: relative;
+    display: flex;
+    width: 29%;
+    margin: 0 0 0 32px;
+}
+
+.main__search_input {
+    max-width: 389px;
+    width: 100%;
+    min-width: 200px;
+    height: 55px;
+    border-radius: 17px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 13px rgba(138, 138, 138, 0.25);
+    border: 0;
+    margin: 0 0 0 0;
+    padding: 0 0 0 45px;
+}
+
+.main__search_input::placeholder {
 
     font-family: 'Inter';
     font-style: normal;
@@ -63,8 +139,59 @@ body {
 
 }
 
-.header__search img {
+.main__search_img {
     position: absolute;
     top: 19px;
-    left: 196px;
+    left: 20px;
 }
+
+.main__add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #498553;
+    border-radius: 12px;
+    min-width: 50px;
+    height: 50px;
+    margin: 0 0 0 32px
+}
+
+.main__plus {}
+
+.main__show {
+    margin: 0 0 0 20px;
+}
+
+.main__delete {}
+
+/*MAIN^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+.section {
+    margin: 30px 10px 0 10px;
+}
+
+.section__container {
+    display: flex;
+    justify-content: center;
+}
+
+.section__block {
+    display: flex;
+    align-items: center;
+    max-width: 1350px;
+    width: 100%;
+    height: 81px;
+    border-radius: 21px;
+    background-color: #E6F1EB;
+}
+
+.section__title {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    color: #555555;
+    white-space: nowrap;
+    margin: 0 0 0 32px;
+}
+
+/*ADD^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+

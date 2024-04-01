@@ -4,21 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Start_page</title>
 </head>
 <body>
     <header class="header">
         <div class="header__container">
-            <img class="header__back_arrow" src="./imgs/arrow_back.svg" alt=""></img>
-            <button class="header__home_button">
-                Главная
-            </button>
+            <div class="header__back">
+                <img class="header__back_arrow" src="./imgs/arrow_back.svg" alt=""></img>
+                <button class="header__home_button">
+                    Главная
+                </button>
+            </div>
             <div class="header__search">
-                <input type="search"
+                <input class="header__search_input"
+                       type="search"
                        placeholder="Поиск по группам" />
-                <img src="./imgs/search.svg"/>
+                <img class="header__search_img" src="./imgs/search.svg"/>
             </div>
         </div>
     </header>
+    <main class=".main">
+        <div class="main__container">
+            <div class="main__block">
+                <div class="main__block_left">
+                    <span class="main__title">Группа 1</span>
+                    <div class="main__search">
+                        <input class="main__search_input"
+                               type="search"
+                               placeholder="Поиск по растениям" />
+                        <img class="main__search_img" src="./imgs/search.svg"/>
+                    </div>
+                    <div class="main__add">
+                        <img class="main__plus" src="./imgs/plus.svg" alt="добавить растение"/>
+                    </div>
+                    <img class="main__show" src="./imgs/arrow_show_down.svg" alt="развернуть группу"/>
+                </div>
+                <div class="main__block_right">
+                    <img class="main__delete" src="./imgs/delete.svg" alt="удалить группу">
+                </div>
+                <section class="dashboard"></section>
+            </div>
+        </div>
+    </main>
+    <section class="section">
+        <div class="section__container">
+            <div class="section__block">
+                <span class="section__title">
+                    Новая группа
+                </span>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
