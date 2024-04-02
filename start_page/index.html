@@ -32,24 +32,182 @@
     <main class=".main">
         <div class="main__container">
             <div class="main__block">
-                <div class="main__block_left">
-                    <span class="main__title">Группа 1</span>
-                    <div class="main__search">
-                        <input class="main__search_input"
-                               type="search"
-                               placeholder="Поиск по растениям" />
-                        <img class="main__search_img" src="./imgs/search.svg"/>
+                <div class="main__sides">
+                    <div class="main__block_left">
+                        <span class="main__title">Группа 1</span>
+                        <div class="main__search">
+                            <input class="main__search_input"
+                                   type="search"
+                                   placeholder="Поиск по растениям" />
+                            <img class="main__search_img" src="./imgs/search.svg"/>
+                        </div>
+                        <div class="main__add">
+                            <img class="main__plus" src="./imgs/plus.svg" alt="добавить растение"/>
+                        </div>
+                        <img class="main__show" src="./imgs/arrow_show_down.svg" alt="развернуть группу"/>
                     </div>
-                    <div class="main__add">
-                        <img class="main__plus" src="./imgs/plus.svg" alt="добавить растение"/>
+                    <div class="main__block_right">
+                        <img class="main__delete" src="./imgs/delete.svg" alt="удалить группу"/>
                     </div>
-                    <img class="main__show" src="./imgs/arrow_show_down.svg" alt="развернуть группу"/>
                 </div>
-                <div class="main__block_right">
-                    <img class="main__delete" src="./imgs/delete.svg" alt="удалить группу">
-                </div>
+                <section class="dashboard">
+                    <div class="dashboard__container">
+                    <div class="dashboard__header">
+                        <div class="dashboard__header_left">
+                            <span class="dashboard__title">Любава</span>
+                            <span class="dashboard__weigh">23кг</span>
+                            <button class="dashboard__button">
+                                Возникшие проблемы
+                            </button>
+                            <div class="dashboard__calendar">
+                                <img class="calendar" src="./imgs/calendar.svg" alt="календарь"/>
+                            </div>
+                            <img class="dashboard__show" src="./imgs/arrow_show_up.svg" alt="свернуть дашборд"/>
+                        </div>
+                        <div class="dashboard__header_right">
+                            <img class="dashboard__delete" src="./imgs/delete.svg" alt="удалить дашборд">
+                        </div>
+                    </div>
+                    <div class="dashboard__blocks">
+                        <div class="block">
+                            <div class="block__header">
+                                <div class="block__title">
+                                    Освещение
+                                </div>
+                                <div class="block__parameter">
+                                    772Lux
+                                </div>
+                                <div class="block__emotion">
+                                    <img class="" src="./imgs/emoji_sick.png" alt="">
+                                </div>
+                                <div class="block__radio">
+                                    <label>
+                                        <input id='radio-1' class="day" name="radio" type="radio" checked>
+                                        <div class="block__castom-radio radio-1">
+                                            День
+                                        </div> 
+                                    </label>
+                                    <label>
+                                        <input id='radio-2' class="week" name="radio" type="radio">
+                                        <div class="block__castom-radio radio-2">
+                                            Неделя
+                                        </div> 
+                                    </label>
+                                    <label>
+                                        <input id='radio-3' class="month" name="radio" type="radio">
+                                        <div class="block__castom-radio radio-3">
+                                            Месяц
+                                        </div> 
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="block__graph"></div>
+                        </div>
+                        <div class="block">
+                            <div class="block__header">
+                                <div class="block__title">
+                                    Освещение
+                                </div>
+                                <div class="block__parameter">
+                                    772Lux
+                                </div>
+                                <div class="block__emotion">
+                                    <img class="" src="./imgs/emoji_sick.png" alt="">
+                                </div>
+                                <div class="block__radio">
+                                    <label>
+                                        <input id='radio-1' class="day" name="radio1" type="radio" checked>
+                                        <div class="block__castom-radio radio-1">
+                                            День
+                                        </div> 
+                                    </label>
+                                    <label>
+                                        <input id='radio-2' class="week" name="radio1" type="radio">
+                                        <div class="block__castom-radio radio-2">
+                                            Неделя
+                                        </div> 
+                                    </label>
+                                    <label>
+                                        <input id='radio-3' class="month" name="radio1" type="radio">
+                                        <div class="block__castom-radio radio-3">
+                                            Месяц
+                                        </div> 
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="block__graph"></div>
+                        </div>
+                        <div class="block">
+                            <div class="block__header">
+                                <div class="block__title">
+                                    Освещение
+                                </div>
+                                <div class="block__parameter">
+                                    772Lux
+                                </div>
+                                <div class="block__emotion">
+                                    <img class="" src="./imgs/emoji_sick.png" alt="">
+                                </div>
+                                <div class="block__radio">
+                                    <label>
+                                        <input id='radio-1' class="day" name="radio2" type="radio" checked>
+                                        <div class="block__castom-radio radio-1">
+                                            День
+                                        </div> 
+                                    </label>
+                                    <label>
+                                        <input id='radio-2' class="week" name="radio2" type="radio">
+                                        <div class="block__castom-radio radio-2">
+                                            Неделя
+                                        </div> 
+                                    </label>
+                                    <label>
+                                        <input id='radio-3' class="month" name="radio2" type="radio">
+                                        <div class="block__castom-radio radio-3">
+                                            Месяц
+                                        </div> 
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="block__graph"></div>
+                        </div>
+                        <div class="block">
+                            <div class="block__header">
+                                <div class="block__title">
+                                    Освещение
+                                </div>
+                                <div class="block__parameter">
+                                    772Lux
+                                </div>
+                                <div class="block__emotion">
+                                    <img class="" src="./imgs/emoji_sick.png" alt="">
+                                </div>
+                                <div class="block__radio">
+                                    <label>
+                                        <input id='radio-1' class="day" name="radio3" type="radio" checked>
+                                        <div class="block__castom-radio radio-1">
+                                            День
+                                        </div> 
+                                    </label>
+                                    <label>
+                                        <input id='radio-2' class="week" name="radio3" type="radio">
+                                        <div class="block__castom-radio radio-2">
+                                            Неделя
+                                        </div> 
+                                    </label>
+                                    <label>
+                                        <input id='radio-3' class="month" name="radio3" type="radio">
+                                        <div class="block__castom-radio radio-3">
+                                            Месяц
+                                        </div> 
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="block__graph"></div>
+                        </div>
+                    </div>
+                </div></section>
             </div>
-            <section class="dashboard"></section>
         </div>
     </main>
     <section class="section">
